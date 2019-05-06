@@ -54,7 +54,7 @@ System.out.println("Error:"+str);
         String str2=driver.findElement(By.xpath("//*[@id=\"navItem_4748854339\"]/a/div")).getText();
         System.out.println("Error2:"+str2);
 
-        System.out.println("repo2");
+        System.out.println("repo22");
 
         Assert.assertEquals(str2,"News Feed");
     }
